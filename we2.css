@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    min-height:100vh;
+    overflow-x:hiddden;
+}
+.search{
+    font-size: 1rem; 
+    height: 20px; 
+    width:280px; 
+    padding: 0.3rem;
+    color: black;
+}
+.heading{
+    display:flex;
+    justify-content: center;
+    margin: 1rem 0 0 0;
+    background-color: blanchedalmond;
+    padding: 1rem 0 1rem 0;
+}
+.buttons{
+    position:absolute;
+    top: 3rem;
+    left: 5rem;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.button1{
+    color:azure;
+    padding: 0.7rem;
+    background: none;
+    border:none;
+    font-size: 2rem;
+    border-radius: 2rem;
+    font-family: 'Oswald', sans-serif;
+}
+.signup{
+    padding: 0.5rem;
+}
+.main{
+    font-size: 7rem;
+}
+.menu{
+    min-height:65vh;
+    width: 100%;
+    background-image:url("https://img.freepik.com/free-photo/grilled-chicken-rice-spicy-chickpeas-avocado-cabbage-pepper-buddha-bowl-dark-top-view_127032-1966.jpg");
+    background-position:center;
+    background-size:cover;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 30px;
+}
+.menu1{
+    text-align: left;
+    color:whitesmoke;
+    padding-left: 100px;
+}
+.label1{
+    padding: 1rem;
+    text-align: center;
+}
+.row1{
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+}
+.row{
+    display:flex;
+    justify-content: center;
+    margin: 1rem 0 0 0;
+    background-color:beige;
+    padding: 1rem 0 1rem 0;
+}
+.d1,.d2,.d3,.d4,.d5{
+    background-color: beige;
+    padding: 0 1rem 1rem 1rem;
+}
+.d55,.d66{
+    padding:1rem 0 0 0;
+}
+.d6,.footer-container{
+    background-color: beige;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.top-container{
+    display:flex;
+    flex-flow: row wrap;
+    position:relative;
+    background-color:antiquewhite;
+    padding:3rem 0 3rem 3.5rem;
+    row-gap: 20px;
+    column-gap: 20px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.bottom-container{
+    display:flex;
+    flex-flow: row wrap;
+    position:relative;
+    background-color: blanchedalmond;
+    padding:3rem 0 3rem 3.5rem;
+    row-gap: 20px;
+    column-gap: 20px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.bottom-container1{
+    display:flex;
+    flex-flow: row wrap;
+    position:relative;
+    background-color:antiquewhite;
+    /*background-color: blanchedalmond;*/
+    padding:3rem 0 3rem 3.5rem;
+    row-gap: 20px;
+    column-gap: 20px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.bottom-container2{
+    display:flex;
+    flex-flow: row wrap;
+    position:relative;
+    background-color: blanchedalmond;
+    padding:3rem 0 3rem 3.5rem;
+    row-gap: 20px;
+    column-gap: 20px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.bottom-container3{
+    display:flex;
+    flex-flow: row wrap;
+    position:relative;
+    background-color:antiquewhite;
+    /*background-color: blanchedalmond;*/
+    padding:3rem 0 3rem 3.5rem;
+    row-gap: 20px;
+    column-gap: 20px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.tag{
+    font-size:2rem;
+    font-style: oblique;
+}
+.img{
+    width:13.4rem;
+    height:13.4rem;
+    object-fit:cover;
+    border-radius: 0.5 rem;
+}
+.last-container{
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 3rem;
+    font-family: "Cheese Lemonade", Palatino, serif !important;
+}
+.h33{
+    padding:0 6rem 0 6rem;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: blanchedalmond;
+    padding:1rem 1rem 1rem 1rem;
+}
+
+.footer-anchor{
+    color: rgb(112, 110, 110);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.socialMedia{
+    height: 3.125rem;
+    width: 3.125rem;
+    background: none;
+    row-gap: 2rem;
+}
+
+@media (max-width: 29rem){
+    .footer{
+        flex-direction: column;
+    }
+}
